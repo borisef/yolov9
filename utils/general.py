@@ -557,6 +557,9 @@ def check_dataset(data, autodownload=True):
 
 
 def check_amp(model):
+    print('TEMP') #BORIS
+    return False #BORIS
+
     # Check PyTorch Automatic Mixed Precision (AMP) functionality. Return True on correct operation
     from models.common import AutoShape, DetectMultiBackend
 
